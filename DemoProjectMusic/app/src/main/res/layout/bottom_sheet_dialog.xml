@@ -1,0 +1,47 @@
+<!-- res/layout/bottom_sheet_dialog.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Add your list of actions or buttons here -->
+    <Button
+        android:id="@+id/action_delete"
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#E91E63"
+        android:gravity="center"
+        android:paddingRight="60dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/delete_remove_cancel_icon"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:text="Delete"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+<!--    <Button-->
+<!--        android:id="@+id/action_create"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:textColor="@color/activeColor"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:text="Create"-->
+<!--        tools:ignore="HardcodedText" />-->
+<!--    <Button-->
+<!--        android:id="@+id/action_share"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:textColor="@color/activeColor"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:text="Share"-->
+<!--        tools:ignore="HardcodedText" />-->
+
+    <!-- Add more actions or buttons as needed -->
+
+</LinearLayout>
